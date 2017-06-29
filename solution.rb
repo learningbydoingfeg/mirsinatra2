@@ -1,17 +1,12 @@
 require 'sinatra'
 
 get '/' do
+	
 
-
-"Hola desconocido!"
-
-end
-
-
-
-get '/:name' do
-
-
-"Hola #{params[:name]}"
+	if params.empty? == false 
+		"<h1>Hola #{params[:nombre]}</h1>"
+	else	
+		"Hola desconocido"	
+	end
 
 end
