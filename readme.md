@@ -1,14 +1,12 @@
 Hola Maker,
 
-Tu misión en este reto es crear un aplicación Web usando Sinatra que reciba un parámetro llamado nombre en la URL y muestre un mensaje de bienvenida con el valor de ese parámetro.
+Nos han pedido hacerle un cambio a la solución del reto anterior. En vez de usar el query string para recibir el parámetro nombre, ahora lo vamos a recibir en del path del URL.
 
-Por ejemplo, si ingresas a
+Por ejemplo, al ingresar a
 
-http://localhost:4567/?nombre=Juan
+http://localhost:4567/makers/juan
 
-la aplicación debe mostrar Hola Juan! dentro de una etiqueta h1.
-
-Si no recibes el query string parameter, o si viene vacío, deberás mostrar la frase Hola desconocido!.
+la aplicación debe mostrar Hola Juan! dentro de una etiqueta h1 (fíjate que el nombre está capitalizado).
 
 Instrucciones
 
