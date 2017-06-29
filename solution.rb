@@ -1,9 +1,10 @@
 require 'sinatra'
 
-get '/' do
+get '/makers' do
 	
 
-	if params.empty? == false 
+	if params.empty? == false
+		nombre.capitalize 
 		"<h1>Hola #{params[:nombre]}</h1>"
 	else	
 		"Hola desconocido"	
